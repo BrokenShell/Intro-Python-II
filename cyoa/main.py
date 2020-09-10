@@ -171,7 +171,7 @@ class ChapterOne:
         Adventure(
             "As you approach the temple you hear the faint sound of someone crying. \n"
             "Would you like to investigate the sound coming from the graveyard or go inside the temple?",
-            ("invetigate graveyard", "enter temple"),
+            ("investigate graveyard", "enter temple"),
             (self.find_dungeon, self.goodbye)
         )()
 
